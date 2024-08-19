@@ -1,0 +1,30 @@
+.biscuit-table
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.biscuit-table td,
+.biscuit-table th{
+    border: 1px solid gray;
+    padding: 7px;
+}
+
+.biscuit-table th{
+    background: #4caf50;
+    color: white;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.biscuit-table tr:nth-child(even){
+    background-color: #ccc;
+}
+
+.biscuit-table tr{
+    text-align: center;
+}
+
+.biscuit-table tr:hover{
+    background:#ccc ;
+}
